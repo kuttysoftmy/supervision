@@ -4,3 +4,7 @@ requests
 ultralytics==8.0.237
 super-gradients==3.5.0
 inference==0.9.17
+cryptography>=46.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
